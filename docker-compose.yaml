@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  app:
+    image: app-traffic-tracking-app
+    # build:
+    #   context: .
+    ports:
+      - "8501:8501"
+      - "8502:8502"
+    volumes:
+      - .:/app      # Mount thư mục 
+    mem_limit: 4g
+    cpus: 4.0
+    # command: ["streamlit", "run", "tracking_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+    command: >
+      sh -c "streamlit run tracking_app.py --server.port=8501 --server.address=0.0.0.0 & 
+             streamlit run query_app.py --server.port=8502 --server.address=0.0.0.0"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONDONTWRITEBYTECODE=1

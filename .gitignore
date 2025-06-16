@@ -1,0 +1,11 @@
+__pycache__/
+**/__pycache__/
+logs/
+results_images/
+workspace/
+yolo_checkpoint/
+*.txt
+*.jpg
+*.mp4
+*.png
+*.MOV
