@@ -1,4 +1,4 @@
-# INSTALL IN WINDOWS
+# QUICK INSTALLATION IN WINDOWS
 1. Download and install Docker: https://www.docker.com/get-started/
 2. Clone this repository:
    - `git clone https://github.com/huuhieu2905/tracking_traffic_participants_using_clothing_data`
@@ -26,3 +26,10 @@
 5. When docker build complete, access this link:
    - http://localhost:8501 (Tracking app)
    - http://localhost:8502 (Query app)
+
+# TRACKING APP
+1. Video demo
+
+[![Demo]](video_demo/tracking_app_demo.mov)
+
+
