@@ -2,9 +2,9 @@ version: "3.9"
 
 services:
   app:
-    image: app-traffic-tracking-app
-    # build:
-    #   context: .
+    # image: app-traffic-tracking-app
+    build:
+      context: .
     ports:
       - "8501:8501"
       - "8502:8502"
