@@ -8,6 +8,7 @@
    - YOLOv11 checkpoint: https://drive.google.com/drive/folders/1a4vinadjP2XigXXqmFeHkNPd8bLvGRc7?usp=drive_link (Download folder yolo_checkpoint)
 
    Set up folder like this structure:
+```
    |-tracking_traffic_participants_using_clothing_data
    |
    |--tracking_app.py
@@ -19,7 +20,7 @@
    |--yolo_checkpoint/
    |----detect_clothes/
    |----detect_motorbike/
-   
+```
 4. Run docker
    - `docker compose up`
 5. When docker build complete, access this link:
