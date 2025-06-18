@@ -27,9 +27,7 @@
    - http://localhost:8501 (Tracking app)
    - http://localhost:8502 (Query app)
 
-# TRACKING APP
-1. Video demo
-
-[![Demo]](video_demo/tracking_app_demo.mov)
+# DETAIL DESCRIPTION
+1. Read this PDF: https://drive.google.com/file/d/175yvljlq-Mx7Wl8vcXFT7FwhWPCz0yhH/view?usp=drive_link
 
 
